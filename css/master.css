@@ -15,7 +15,7 @@ p {
   justify-content: space-between;
   align-items: center;
   color: rgb(65, 65, 211);
-  margin: 0 0 7.5px 0;
+  margin: 10px 0;
 }
 
 .navbar h1 {
@@ -43,7 +43,7 @@ p {
   padding: 0 30px;
   padding-bottom: 15px;
   height: 14rem;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   box-shadow: 5px rgb(140, 105, 105);
   display: grid;
   grid-template-columns: 1fr 0.4fr 1fr;
