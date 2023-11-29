@@ -323,7 +323,7 @@ cityCoordinates.forEach((location, i) => {
 async function getCityData(city, product) {
   try {
     const res =
-      await fetch(`http://www.7timer.info/bin/api.pl?lon=${city.longitude}&lat=${city.latitude}&product=${product}&output=json
+      await fetch(`https://www.7timer.info/bin/api.pl?lon=${city.longitude}&lat=${city.latitude}&product=${product}&output=json
     `);
     const data = await res.json();
     return data;
