@@ -33,8 +33,8 @@ p {
 }
 
 .main {
-  /* would laater use a gif */
-  background-image: url("../images/example3.jpg");
+  /* would later use a gif */
+  background-image: url("../images/clear1.png");
   background-size: cover;
   background-position: center;
   object-fit: cover;

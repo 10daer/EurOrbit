@@ -556,7 +556,7 @@ function backgroundSetter(data) {
     newData = "snow";
   if (data === "tsrain" || data === "tstorm" || data === "windy")
     newData = "storm";
-  // Main.style.background = `url(../images/${newData}.gif)`;
+  Main.style.background = `url(../images/${newData}4.gif)`;
   weatherIcon.src = `./images/${newData}.svg`;
 }
 
