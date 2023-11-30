@@ -34,7 +34,7 @@ p {
 
 .main {
   /* would later use a gif */
-  background-image: url("../images/example3.jpg");
+  background-image: url("../images/clear4.svg");
   background-size: cover;
   background-position: center;
   object-fit: cover;
