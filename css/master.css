@@ -37,7 +37,7 @@ p {
 }
 
 .main {
-  background-image: url("../images/storm4.jpg");
+  background-image: url("../images/background.jpeg");
   background-size: cover;
   background-position: center;
   object-fit: cover;
@@ -121,7 +121,7 @@ p {
 .footer {
   display: flex;
   flex-direction: row;
-  height: 16rem;
+  height: 17rem;
   gap: 12.4px;
   transition: all 500ms;
 }
