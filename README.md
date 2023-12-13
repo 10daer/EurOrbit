@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The European travel agency aims to boost travel bookings by providing website visitors with a convenient way to check the 7-day weather forecast for major European cities. This initiative is expected to enhance the user experience, prolong visitor engagement on the website, and ultimately drive online bookings. To meet these goals, a webpage has been developed to retrieve weather forecasts from an external service.
+The European travel agency aims to boost travel bookings by providing website visitors with a convenient way to check the 7-day weather forecast for major European cities. This initiative is expected to enhance the user experience, prolong visitor engagement on the website, and ultimately drive online bookings. To meet these goals, a webpage [Eurobit](https.eurobit.netlify.app) has been developed to retrieve weather forecasts from an external service.
 
 ## Features
 
