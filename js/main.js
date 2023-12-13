@@ -504,11 +504,9 @@ function createHtml(el, i) {
                 </div>`;
   dialyContainer.innerHTML += html;
   dialyContainer.addEventListener("click", function (e) {
-    document.querySelector(".daily-data").classList.remove("selected");
     const click = e.target.closest(".daily-data");
     const clickedId = click.getAttribute("id");
     if (!click || clickedId !== i.toString()) return;
-    document.querySelector(".daily-data").classList.add("selected");
     weatherDetails(meteoData, true, clickedId);
     weeklyIcon.src = `./images/${el.weather || "earth"}.gif`;
   });
@@ -527,7 +525,7 @@ function loading(text) {
 }
 
 function CloudCalc(num) {
-  if (num < 9) {
+  if (num <= 8) {
     return ((num - 1) / 8) * 100;
   } else {
     return 97;
@@ -556,7 +554,6 @@ function backgroundSetter(data) {
     newData = "snow";
   if (data === "tsrain" || data === "tstorm" || data === "windy")
     newData = "storm";
-  Main.style.background = `url(../images/${newData}4.svg)`;
   weatherIcon.src = `./images/${newData}.svg`;
 }
 
@@ -596,3 +593,6 @@ init();
 
 selectElement.addEventListener("change", callback);
 window.addEventListener("online", init());
+document.querySelector(".page").addEventListener("click", function () {
+  location.reload();
+});
