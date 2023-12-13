@@ -27,7 +27,7 @@ The project leverages the 7Timer API, a free and straightforward service that do
 
 ## Usage
 
-To experience the weather forecast feature, simply visit the webpage at [Eurobit](https.netlify.eurobit.app) and use the provided interface to look up the 7-day forecast for your desired European city.
+To experience the weather forecast feature, simply visit the webpage at [Eurobit](https.eurobit.netlify.app) and use the provided interface to look up the 7-day forecast for your desired European city.
 
 ## Contributors
 
